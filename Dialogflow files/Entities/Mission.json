@@ -1,0 +1,19 @@
+{
+  "id": "22b345e9-dfa7-442d-8c81-106641e75112",
+  "name": "mission",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "mission",
+      "synonyms": [
+        "mission",
+        "duty",
+        "aim",
+        "assignment",
+        "job"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

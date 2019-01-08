@@ -1,0 +1,67 @@
+{
+  "id": "367d8119-8d6c-47a3-9fbe-39d9411c9fd1",
+  "name": "age",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5258a3a3-f12a-4a79-b5a8-a6777ca41f8d",
+          "required": false,
+          "dataType": "@age",
+          "name": "age",
+          "value": "$age",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I'm two"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544038976,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "beb8371e-8429-43cf-866e-fb02deb8f499",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "old",
+          "alias": "age",
+          "meta": "@age",
+          "userDefined": false
+        },
+        {
+          "text": " are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544038976,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,132 @@
+{
+  "id": "f118bee5-56b8-4819-9956-8522e45fcbda",
+  "name": "Sing a song",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dbf9fb03-49c2-4cd6-9163-2640ded3735c",
+          "required": false,
+          "dataType": "@Song",
+          "name": "Song",
+          "value": "$Song",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Banana..."
+        },
+        {
+          "type": 0,
+          "speech": "Lalala..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543896185,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ca214daa-a2c3-4644-9a6e-251906bd2e3d",
+      "data": [
+        {
+          "text": "banana",
+          "alias": "Song",
+          "meta": "@Song",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543896185,
+      "isAuto": false
+    },
+    {
+      "id": "1456d0bb-58e4-48a7-afa1-0ac3111025fd",
+      "data": [
+        {
+          "text": "Can you sing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543858270,
+      "isAuto": false
+    },
+    {
+      "id": "34680cdb-c0f8-457a-a010-327b5b5f2f6d",
+      "data": [
+        {
+          "text": "I want "
+        },
+        {
+          "text": "bananas",
+          "alias": "Song",
+          "meta": "@Song",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543856833,
+      "isAuto": false
+    },
+    {
+      "id": "785d61f9-ed3e-4c08-820f-603d18572cf3",
+      "data": [
+        {
+          "text": "play some "
+        },
+        {
+          "text": "music",
+          "alias": "Song",
+          "meta": "@Song",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543852417,
+      "isAuto": false
+    },
+    {
+      "id": "1234f76e-463f-4253-9fd5-a184772155d0",
+      "data": [
+        {
+          "text": "sing a "
+        },
+        {
+          "text": "song",
+          "alias": "Song",
+          "meta": "@Song",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543852417,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

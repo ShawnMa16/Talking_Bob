@@ -1,0 +1,61 @@
+{
+  "id": "6c880ccd-d73c-4bf7-b21d-52ed5b522618",
+  "name": "name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I'm Bob, your best friend."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544038791,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7b2d91d4-a9ae-4a5c-a24d-29ad9c792f54",
+      "data": [
+        {
+          "text": "who are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544038741,
+      "isAuto": false
+    },
+    {
+      "id": "7be13071-3524-4f00-91b8-2a14271fb09f",
+      "data": [
+        {
+          "text": "what's your name"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544038741,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

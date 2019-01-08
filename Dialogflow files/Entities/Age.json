@@ -1,0 +1,17 @@
+{
+  "id": "17d06ada-64e9-4fc3-a116-e51dee1732a3",
+  "name": "age",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "age",
+      "synonyms": [
+        "age",
+        "young",
+        "old"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

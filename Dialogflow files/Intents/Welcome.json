@@ -1,0 +1,332 @@
+{
+  "id": "91010841-6d1c-439e-8bec-9ee0c56efd06",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "54740460-a473-4b4f-a301-61e46ade2fd8",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "5a02eb75-6439-4a04-a143-63a2f45bb122",
+          "required": false,
+          "dataType": "@Song",
+          "name": "Song",
+          "value": "$Song",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! Do you have any bananas?",
+            "Good day! What can I do for you today?",
+            "Do you want any bananas?",
+            "Hi! Ask me about weather.",
+            "I'm OK, ha ha ha!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544494644,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "1659e023-379d-4de5-b1db-d271e3fd6ec3",
+      "data": [
+        {
+          "text": "Hi "
+        },
+        {
+          "text": "Bob",
+          "alias": "Song",
+          "meta": "@Song",
+          "userDefined": false
+        },
+        {
+          "text": ", how are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544494644,
+      "isAuto": false
+    },
+    {
+      "id": "7211692b-7613-406e-aaea-696a12a519c8",
+      "data": [
+        {
+          "text": "how are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543873246,
+      "isAuto": false
+    },
+    {
+      "id": "5b721601-f578-4e56-8415-bec3af773679",
+      "data": [
+        {
+          "text": "Hi "
+        },
+        {
+          "text": "Bob",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1543851924,
+      "isAuto": false
+    },
+    {
+      "id": "da3d2732-1330-4712-bfce-56161740f059",
+      "data": [
+        {
+          "text": "Bob",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543851924,
+      "isAuto": false
+    },
+    {
+      "id": "8068434e-f269-4fbd-865a-5a02b7778d2c",
+      "data": [
+        {
+          "text": "Hola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1543851924,
+      "isAuto": false
+    },
+    {
+      "id": "1b9815a5-55c0-4196-b410-06402c2cbf01",
+      "data": [
+        {
+          "text": "just going to say hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1cfae045-05b0-45c4-81f0-cd0a7de26e5d",
+      "data": [
+        {
+          "text": "heya"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fea7da1e-d709-4eb6-8fd8-106f35f6b821",
+      "data": [
+        {
+          "text": "hello hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f818850b-f688-4c5d-8b10-70b8c356b5e2",
+      "data": [
+        {
+          "text": "howdy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4f97dcbf-751e-4442-a163-010952e733fe",
+      "data": [
+        {
+          "text": "hey there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b74ae9d5-4911-4b3f-b689-269320204a19",
+      "data": [
+        {
+          "text": "hi there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "751edb80-fdfe-472d-be45-a7ca0e38c52e",
+      "data": [
+        {
+          "text": "greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c4649df0-ed4e-4956-b064-671c49d267f7",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "759ac75d-4efe-4770-99b0-7475f4a1b6e1",
+      "data": [
+        {
+          "text": "long time no see"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ebe1e10d-ab42-43e1-a935-0d336128b80b",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fbdb212e-ec88-48ca-9db2-4850fdf7e8ce",
+      "data": [
+        {
+          "text": "lovely day isn't it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b19cc718-d946-4014-9080-22885c095ed0",
+      "data": [
+        {
+          "text": "I greet you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a897f66b-c6ce-4f1b-84d2-722d2bc7243e",
+      "data": [
+        {
+          "text": "hello again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a318e2a7-4f52-4d8b-8e53-cdcf01255a7e",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "218ea722-0f59-44e2-9973-ac95801e25b4",
+      "data": [
+        {
+          "text": "hello there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e2d64bf5-95cb-4743-b150-f0ff132f652c",
+      "data": [
+        {
+          "text": "a good day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

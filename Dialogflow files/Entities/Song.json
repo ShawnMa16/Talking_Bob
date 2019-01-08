@@ -1,0 +1,25 @@
+{
+  "id": "bd701f1b-4ae7-4417-a421-b01ed71743d1",
+  "name": "Song",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Song",
+      "synonyms": [
+        "Song",
+        "music",
+        "track"
+      ]
+    },
+    {
+      "value": "banana",
+      "synonyms": [
+        "banana",
+        "yellow",
+        "bob"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

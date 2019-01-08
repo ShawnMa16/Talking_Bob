@@ -1,0 +1,90 @@
+{
+  "id": "8a0fc2ea-5c59-4897-add8-eb1eaa534d8e",
+  "name": "mission",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "744d06bd-7043-4708-a8ab-26cd2e45fab9",
+          "required": false,
+          "dataType": "@mission",
+          "name": "mission",
+          "value": "$mission",
+          "isList": false
+        },
+        {
+          "id": "89bb9883-6f0d-4bb4-bfd3-fc0b1afa6e29",
+          "required": false,
+          "dataType": "@mission",
+          "name": "job",
+          "value": "$mission",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "To conquer the world!",
+            "To catch the giant dinosaurs!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544490396,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3bdc4bb3-0ddc-45e6-8153-4c5226e4e731",
+      "data": [
+        {
+          "text": "What is your job"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544461313,
+      "isAuto": false
+    },
+    {
+      "id": "7366a41b-e510-4126-8e4b-50c8b295dc83",
+      "data": [
+        {
+          "text": "What is your "
+        },
+        {
+          "text": "mission",
+          "alias": "mission",
+          "meta": "@mission",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544461313,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

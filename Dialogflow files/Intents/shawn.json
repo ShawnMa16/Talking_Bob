@@ -1,0 +1,76 @@
+{
+  "id": "b99342aa-5fdd-411a-93f2-011a45244d48",
+  "name": "shawn",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "891fb956-8d85-4094-a9c1-735481ddb4d9",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "He is the best!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544038689,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e114ca94-a862-4e6f-a001-a43634b114d8",
+      "data": [
+        {
+          "text": "who is your favorite people"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544038689,
+      "isAuto": false
+    },
+    {
+      "id": "02f26355-762b-4cba-8e23-7e25cf2fa88a",
+      "data": [
+        {
+          "text": "who is "
+        },
+        {
+          "text": "shawn",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1544038689,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

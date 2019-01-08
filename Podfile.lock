@@ -1,0 +1,44 @@
+PODS:
+  - ApiAI (0.7.2):
+    - ApiAI/AudioFileConverter (= 0.7.2)
+    - ApiAI/Core (= 0.7.2)
+    - ApiAI/Events (= 0.7.2)
+    - ApiAI/ResponseMapping (= 0.7.2)
+    - ApiAI/UIKit (= 0.7.2)
+    - ApiAI/UserEntities (= 0.7.2)
+    - ApiAI/VoiceFileRequest (= 0.7.2)
+    - ApiAI/VoiceRequest (= 0.7.2)
+  - ApiAI/AudioFileConverter (0.7.2):
+    - ApiAI/Core
+  - ApiAI/Core (0.7.2)
+  - ApiAI/Events (0.7.2):
+    - ApiAI/Core
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/UserEntities (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceFileRequest (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - ApiAI
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ApiAI
+    - SnapKit
+
+SPEC CHECKSUMS:
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: c2f349095762152ebe2d350a9974546f3935202c
+
+COCOAPODS: 1.5.3
