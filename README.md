@@ -50,12 +50,10 @@ You will need to use your own token from Dialogflow
 3. Replace `bob` in line 67 to your target object's name
 4. Build and run the app
 
-* Once you have launched the app, you should target your phone to your target object.
+Once you have launched the app, you should target your phone to your target object.
 
-* Onece the object has been detected, a dialog will popup and you can hold the record button to start chatting.
+When the object has been detected, a dialog will popup and you can hold the record button to start chatting.
 
-
-**DO NOT ADD GAME OBJECT FOR NOW**
 
 ## Built With
 
