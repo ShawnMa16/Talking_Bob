@@ -40,7 +40,7 @@ Files needed to be uploaed are in the folder **Dialogflow files**
 You will need to use your own token from Dialogflow
 
 1. Go to file **./Talkin_Bob/AppDelegate.swift**
-2. Replace `"your token"` to your token from Dialogflow
+2. Replace `your token` in line 23 to your token from Dialogflow
 
 
 ### Build and run the app
